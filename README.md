@@ -1,6 +1,6 @@
-# Example Base Project
+#Example Base Project
 
-## **Estructura del Proyecto**
+##**Estructura del Proyecto**
 
 ```bash
 Proyect
@@ -13,7 +13,7 @@ Proyect
 |_ .gitignore #Archivo para omitor el seguimiento de git en algunos archivos
 ```
 
-## **Compilar Proyecto**
+##**Compilar Proyecto**
 
 **Con [Next](https://next-b3d34.web.app/en/landing-page/)**
 ```bash
