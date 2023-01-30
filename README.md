@@ -13,7 +13,7 @@ Proyect
 |_ .gitignore #Archivo para omitor el seguimiento de git en algunos archivos
 ```
 
-##**Compilar Proyecto**
+## **Compilar Proyecto**
 
 **Con [Next](https://next-b3d34.web.app/en/landing-page/)**
 ```bash
