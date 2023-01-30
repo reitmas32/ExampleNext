@@ -1,0 +1,29 @@
+name_project: motor-grafico
+description: Motor Grafico
+type_project: executable
+build_dir: build
+name_build: app
+include_dirs:
+- .
+- ..
+- include
+dependencies:
+  #ExampleLib:
+  #  name: example
+  #  dir: /lib/example
+  #  date: 29/11/2022
+commands:
+  view: ls
+builds:
+  basic_release:
+    name_out: app
+    base: basic
+    #source_cxx:
+      #- src/*.c
+    c_compiler_regex: $C -c $FILE -o $FILE_OUT $INCLUDES
+    linker_regex: $LD $FILES  -o $FILE_OUT $INCLUDES
+    source_c:
+      - src/*.c
+    linker: gcc
+    c_compiler: gcc
+    cxx_compiler: g++
