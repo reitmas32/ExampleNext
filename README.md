@@ -1,6 +1,6 @@
-#Example Base Project
+# Example Base Project
 
-##**Estructura del Proyecto**
+## **Estructura del Proyecto**
 
 ```bash
 Proyect
